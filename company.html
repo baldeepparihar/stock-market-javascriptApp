@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>company</title>
+    <!-- Chart.JS CDN -->
+    <link rel="stylesheet" href="../css/company-styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@3.5.1/dist/chart.min.js"></script>
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <div class="company-profile-wrapper">
+        <div class="company-profile-header">
+          <div class="company-logo" id="company-logo"></div>
+          <div class="company-title" id="company-title"></div>
+        </div>
+        <div class="stock-price-wrapper">
+          <div class="stock-price" id="price"></div>
+          <div class="stock-price-change" id="changesPercentage"></div>
+        </div>
+        <div class="company-description" id="company-description"></div>
+        <div class="chart" id="chart">
+          <canvas id="myChart" class="canvas" width="400" height="400"></canvas>
+        </div>
+      </div>
+    </div>
+    <script src="../js/company.js">
+  
+    </script>
+  </body>
+</html>

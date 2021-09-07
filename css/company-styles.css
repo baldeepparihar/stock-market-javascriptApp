@@ -1,0 +1,63 @@
+body {
+  margin: 0;
+}
+.page-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.company-profile-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  justify-items: center;
+  padding: 30px;
+}
+.company-profile-header {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  width: 50%;
+}
+.company-logo {
+  margin-right: 20px;
+}
+.company-title {
+  font-size: 20px;
+}
+.stock-price-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 20px;
+}
+.stock-price-title {
+}
+.stock-price-amount {
+}
+
+.stock-price-change {
+  margin-left: 10px;
+}
+.company-description {
+  margin-top: 30px;
+}
+
+.green {
+  color: lightgreen;
+}
+
+.red {
+  color: red;
+}
+
+.chart {
+  display: flex;
+  justify-content: center;
+  margin: auto;
+  width: 800px;
+  height: 600px;
+}
+
+.canvas {
+  
+}
